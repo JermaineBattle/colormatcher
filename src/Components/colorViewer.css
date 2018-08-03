@@ -1,0 +1,196 @@
+/*Root*/
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: -5px;
+  height: 98vh;
+  min-height: 400px;
+}
+
+/*Classes*/
+.overlay {
+  background-image:
+    url("http://moziru.com/images/sparkles-clipart-transparent-background-9.jpg");
+  background-size: cover;
+}
+.form {
+  opacity: 100%;
+  border: 10px solid black;
+  border-radius: 125px;
+  margin: 0 auto;
+  background-color: white;
+  height: 80vh;
+  min-height: 425px;
+}
+
+.inputField {
+  text-align: center;
+  border: 2px solid black;
+  font-size: .5em;
+  margin-top: .1em;
+  height:22px;
+}
+
+/*IDs*/
+.content {
+  padding-top: 1rem;
+  height: 90vh;
+  /*min-height: 800px;*/
+}
+
+/*Elements*/
+form {
+  width: 40%;
+  font-size: 40px;
+  height: 100%;
+}
+h1 {
+  font: 400 1.5em 'Pacifico', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  line-height: 1.34em;
+  height: 30vh;
+}
+h2 {
+  padding-top: 0%;
+  font-size: auto;
+  width: 100%;
+  line-height: 5purpvw;
+  word-wrap: break-word;
+}
+p {
+  font-size: .3em;
+}
+input {
+  width: 40%;
+
+}
+footer {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,.7);
+}
+
+@media only screen and (max-height: 500px){
+
+  p {
+    display: none;
+  }
+
+
+}
+/*Media Queries*/
+/*MQ1*/
+/*Width view 1*/
+*@media only screen and (max-width: 622px) and (min-width: 522px){
+  h1 {
+    font-size: .9em;
+    line-height: 70px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  p {
+    visibility: hidden;
+  }
+  .circle {
+    border: 6px solid black;
+    margin: 0 auto;
+    height: 90px;
+    width: 90px;
+    bottom: 0px;
+    border-radius: 1000px;
+  }
+}
+  @media only screen and
+    (max-width: 622px) and
+    (min-width: 522px) and
+    (min-height: 722px)
+  {
+    .circle2{
+      border: 6px solid black;
+      margin: 0 auto;
+      height: 90px;
+      width: 90px;
+      border-radius: 1000px;
+    }
+  }
+/*MQ2*/
+/*Width view 2*/
+@media only screen and (max-width: 520px) and (min-width: 300px){
+  h1 {
+    font-size: .6em !important;
+    line-height: 70px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p {
+    visibility: hidden;
+  }
+  .circle {
+    border: 6px solid black;
+    margin: 0 auto;
+    height: 90px;
+    width: 90px;
+    bottom: 0px;
+    border-radius: 1000px;
+  }
+.inputField {
+  text-align: center;
+  border: 2px solid black;
+  font-size: .3em;
+  margin-top: .1em;
+  width: 115px;
+  }
+}
+@media only screen and
+  (max-width: 520px) and
+  (min-width: 300px) and
+  (min-height: 722px)
+{
+.circle2{
+  border: 6px solid black;
+  margin: 0 auto;
+  height: 90px;
+  width: 90px;
+  border-radius: 1000px;
+ }
+}
+/*MQ2*/
+/*height view 1*/
+
+@media only screen and (max-height: 736px){
+ /* .form {
+    height: 95%;
+  }*/
+
+  .content {
+    padding-top: 1rem;
+    height: 75vh;
+    /*min-height: 700px;*/
+
+  }
+  .circle {
+    border: 6px solid black;
+    margin: 0 auto;
+    height: 90px;
+    width: 90px;
+    bottom: 0px;
+    border-radius: 1000px;
+  }
+  h1 {
+      font-size: .9em;
+      line-height: 50px;
+      padding-bottom: 30px;
+      height: 60px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+
+}
